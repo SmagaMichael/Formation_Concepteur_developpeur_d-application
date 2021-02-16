@@ -1,0 +1,87 @@
+body{margin: 0 ;
+    background-image: url(fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.page{width: 900px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(238, 130, 238, 0.473);
+    border: 3px solid black;
+    border-radius: 20px;}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex1{display: flex;
+height: 100vh;}
+
+
+
+.nom, .prenom, .tel,
+.situation, .hobbies, .civilite{
+        width: 45%;
+        margin-bottom: 20px;}
+
+h2{text-transform: uppercase;
+margin:0;
+font-size: 15px;}
+
+.nom > input,
+.prenom > input,
+.tel > input,
+.situation > select{
+    border-radius: 10px;
+    width: 95%;
+    height: 30px;}
+
+    input:focus, select:focus{
+        border-color: crimson;
+        outline: 0;
+    }
+
+/* box-sizing:border-box 
+prendre en compte la taille avec les bordure */
+
+
+
+
+.field{
+    display: block;}
+
+.center{
+    text-align: center;}
+
+
+
+                 /*  bouton envoyer*/   
+button{background-color: transparent;
+color: rgb(241, 231, 231);
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+padding: 10px 15px;
+margin:0 40px}
+
+button:hover{cursor: pointer;
+background-color: rgb(247, 242, 242);
+color: rgb(5, 0, 0);}
+
+
+
+
+                    /* RESPONSIVE */ 
+@media(max-width: 991px){
+
+body{background-size: cover;
+    background-repeat: no-repeat;}
+
+.page{width: 100%;
+margin: auto;}
+
+.nom, .prenom, .tel,
+.situation, .hobbies, .civilite{
+    width: 90%;}

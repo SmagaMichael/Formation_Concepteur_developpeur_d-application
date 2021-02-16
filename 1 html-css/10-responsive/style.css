@@ -1,0 +1,47 @@
+.page{
+    width: 1200px;
+    margin: auto;}
+
+.flex{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+    
+}
+
+.square{
+    background-color: red;
+    width: 30%;
+    height: 100px;
+    margin: 5px;
+
+}
+
+h1{
+    color: blue;}
+
+
+
+/*Pour les écrans de 1199px et - */ 
+@media(max-width:1199px){
+
+    .page{width: 100%;}
+    h1{color: crimson;}
+    .square{width: 45%;
+    margin-bottom: 20px;
+    }
+
+    }
+
+
+@media(max-width:991px){
+    h2 {display: none;}
+    .square{width: 100%;
+    }
+    }
+/* ou visibility:hidden mais visibility hidden 
+rend invisible l'élément
+ alors que display:none fait en sorte que l'élément 
+ n'est plus pris en comtpe */
+

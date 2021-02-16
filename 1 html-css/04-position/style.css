@@ -1,0 +1,165 @@
+.square {
+    width:100px;
+    height:100px;
+
+}
+/* 3 carré superposé */
+
+.red{
+background-color: #FF0000;
+position:relative;
+top:50px;
+left: 50px;
+Z-index: 0.5;
+
+}
+
+.green{
+background-color: #00FF00;
+position:relative;
+top:-100px;
+Z-index:1;
+}
+
+.blue{
+background-color: #0000FF;
+position:relative;
+top:-100px;
+left: 100px;
+z-index: -1;}
+
+/* 
+Pour changer la valeur dans F12 de quelques choses on peut faire shift + fleche 
+
+la position relative permet de déplacer l'élément librement sur la page, 
+position:relative;
+top:-200px;
+opacity:0.6;
+
+
+Le Z-index permet de forcer la position sur Z 
+z-index:1;
+top: -100px;
+psition: relative;
+*/
+
+.red1{
+    background-color: #FF0000;
+    position:relative;
+    top:50px;
+    left: 50px;
+    Z-index: 0.5;
+    opacity:0.33;
+    opacity:0.70;
+
+    
+    }
+    
+    .green1{
+    background-color: #00FF00;
+    position:relative;
+    top:-100px;
+    left:50px;
+    Z-index:1;
+    opacity:0.1;
+
+    }
+    
+    .blue1{
+    background-color: #0000FF;
+    position:relative;
+    top:-175px;
+    left: 100px;
+    z-index: -1;
+    opacity:0.05;
+}
+
+
+    .relative{
+        background-image: url(galaxy.gif);
+        height :800px;
+        /* background-repeat:no-repeat;*/ 
+        position: relative;
+
+    }
+
+
+    .absolute{
+        font-size:60px;
+        position: absolute;
+        top:40px;
+        right:40px;
+    
+    }
+
+    .ovni {
+        background-image: url(ovni.png);
+        width: 270px;
+        height:200px;
+        position:absolute;
+    }
+
+
+    .ovni1 {
+        top: 225px;
+        right: 594px;
+    
+    }
+
+
+    .ovni2{
+        background-position: -270px 0;
+        top: 35px;
+        right:700px;
+    
+    }
+    .ovni3{
+        background-position: -530px 0;
+        top: 565px;
+        right: 1000px;
+    }
+
+
+
+
+
+
+    .ovni4{
+        background-position: 20px -250px;
+        top: 35px;
+        right:1000px
+    
+    }
+    .ovni5{
+        background-position: -270px -250px;
+        top: 120px;
+        right: 1300px;
+
+    }
+    .ovni6{
+        background-position: -530px -250px;
+        top: 475px;
+          right: 680px;
+
+    }
+
+
+
+
+    .ovni7{
+        background-position: 5px -500px;
+        top: 435px;
+        right: 1300px;
+
+    }
+    .ovni8{
+        background-position: -270px -500px;
+        top: 215px;
+        right:1000px
+
+    }
+    .ovni9{
+        background-position: -530px -500px;
+        top: 265px;
+        right: 230px;
+    }

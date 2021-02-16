@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    justify-content: center;}
+
+.page{
+    background-color: blue;
+    padding: 10px;}
+
+
+
+
+            /* Exemple 1*/
+.exemple1{
+    display: flex;
+    height: auto;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;}
+
+
+    
+
+            /* Exemple 2*/
+
+.buttonBlue{
+    height: 50px;
+    width: 50px;}
+
+.exemple2{
+    display: flex;
+    height: auto;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;}
+            
+.buttonOrange{
+    height: 50px;
+    width: 50px;}
+    
+
+
+
+            /* Exemple 3*/
+
+.exemple3{
+    display: flex;
+    height: auto;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;}
+
+
+.AllSlide{
+    width: 100%;
+    height: auto;
+    border: 3px red solid;
+    display: flex;
+    position: relative;
+    transition: 1s;}           
+
+.slide3{
+    margin: 0px 60px;
+    border: 1px solid orange;
+    position: relative;}
+
+.buttonOrange3{
+    position: absolute;
+    right: 20px;
+    height: 50px;
+    width: 50px;}
+
+.buttonBlue3{
+    position: absolute;
+    right: 970px;
+    height: 50px;
+    width: 50px;}
+            
+    
+    

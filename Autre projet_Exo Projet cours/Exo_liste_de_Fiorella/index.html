@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+    <!-- ordre : bootstrap puis CSS-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<!--Nous allons créer une liste de noel pour Fiorella.
+On aura d'abord une liste de cadeaux (en HTML)
+
+- Sophie la girafe
+- Trotteur
+- Livre
+- Petit ours brun
+- Doudou
+- Léon l'ourson
+- Piano
+- Cubes et sphères
+
+1 Fiorella doit pouvoir choisir (click) uniquement 5 cadeaux (pas 10), tableau ?
+
+2 Quand Fiorella aura choisi un cadeau, cet élément de la liste sera barré.(une classe CSS ?)
+
+3. Fiorella peut changer d'avis et "déselectionner" un cadeau. (Tableau pop ou slice ?)
+4. Dès qu'elle aura choisi 5 cadeaux, on affichera un message "Attends ton anniversaire".
+
+BONUS. Afficher la liste de Fiorella au fur et à mesure dans une 2ème liste (Aide du formateur)
+BONUS. Afficher une phrase "Fiorella a choisi 2 cadeaux. Il en reste 3."
+
+-->
+
+        <div class="page container">
+            
+            <div class="magasine">
+                <p class="container">Vous pouvez choisir jusqu'à 5 cadeaux si vous avez été sage 🎅</p>
+            
+                <button class="Elsa">
+                    <p>Elsa + Olaf</p>
+                    <img src="img/Elsa.jpg" alt="">
+                </button>
+
+                <button class="Draco">
+                    <p>Peluche Draco</p>
+                    <img src="img//Draco.jpg" alt="">
+                </button>
+
+                <button class="Drone">
+                    <p>My Drone</p>
+                    <img src="img/Drone.jfif" alt="">
+                </button>
+
+                <button class="FirstPC">
+                    <p>My FirstPC</p>
+                    <img src="img/FirstPC.jpg" alt="">
+                </button>
+
+                <br>
+
+                <button class="DollHouse">
+                    <p>Doll House</p>
+                    <img src="img/DollHouse.jpg" alt="">
+                </button>
+
+                <button class="Monster">
+                    <p>Monster High</p>
+                    <img src="img/Monster.jpg" alt="">
+                </button>
+
+                <button class="Miraculous">
+                    <p>Costume Ladybug</p>
+                    <img src="img/Miraculous.jpg" alt="">
+                </button>
+
+                <button class="Societe">
+                    <p>Jeu de société</p>
+                    <img src="img/Societe.jpg" alt="">
+                </button>
+            </div>
+
+
+                                    <!--PANIER-->
+            <div class="panier"> 
+                <p>Voici les cadeaux que vous avez selectionnés 🎅</p>
+                <p class="merci">Joyeux Noël Oh Oh Oh ! ! !</p>
+
+                <p class="reste">il vous reste 5 choix 🎅</p>
+
+               
+                <div class="d-flex  AllChoice ">
+                    <div class=" d-flex m-1 choice"> 
+                        <button class="deleteArticle">X</button> 
+                        <div class="Article1 titreArticle">Article 1 : </div>
+                    </div> 
+
+                    <div class="d-flex m-1 choice">
+                        <button class="deleteArticle">X</button> 
+                        <div class="Article2 titreArticle">Article 2 : </div>
+                    </div>
+
+                    <div class="d-flex m-1 choice">
+                        <button class="deleteArticle">X</button> 
+                        <div class="Article3 titreArticle">Article 3 : </div>
+                    </div>
+
+                    <div class="d-flex m-1 choice">
+                        <button class="deleteArticle">X</button> 
+                        <div class="Article4 titreArticle">Article 4 : </div>
+                    </div>
+
+                    <div class="d-flex m-1 choice">
+                        <button class="deleteArticle">X</button> 
+                        <div class="Article5 titreArticle">Article 5 : </div>
+                    </div>
+                </div>
+
+                <div class="SendJack">
+                    <button class="Send">Commandez et le père Noël s'occupe de tout </button>
+                    <img class="jack" src="img/jack.png" alt="">
+                </div>
+                
+            </div>
+        </div> <!--Fin de la page-->
+
+        
+            <div class="snow" id="particles-js" ></div> <!-- particles.js container -->
+        
+
+
+
+
+
+ <!--traineau
+<img class="sled" src="img/sled.png" alt="">
+-->
+
+
+    <script src="extension/particles/particles.js"></script>
+    <script src="extension/particles/js/app.js"></script>
+
+    
+<!-- ordre jquery  et ensuite bootstrap puis le JS -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap.bundle.min.js" ></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

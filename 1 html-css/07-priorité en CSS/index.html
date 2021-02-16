@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<!--Les priotiés en Css 
+    (du + important au - important
+
+        !important 10000
+        Attribut style html 2000
+        Selecteur id(#) 1000
+        Selecteur de class (.) , 
+            attribut ([]), 
+            pseudo classes 100-->
+
+    <section id="container" class="container" style="background-color:pink">
+        <p>Paragraphe 1</p>
+        <p title="salut">paragraphe 2</p>
+    </section>
+
+
+    <p>
+        <span id="paragraphe">ici</span>
+    </p>
+
+    <!--attention ceci n'est pas selectionnée par  
+            section > #paragraphe {}
+                                            -->
+    <section>
+        <div>
+            <p id="paragraphe"></p>
+        </div>
+    </section>
+<!--On selectionne uniquement B C et E pour + -->
+<!--On selectionne uniquement B C D et E pour ~ -->
+
+    <p>A</p>
+    <p>B</p>
+    <p>C</p>
+    <span>toto</span>
+    <p>D</p>
+    <p>E</p>
+
+
+    <input type="text">
+
+    <a class="button "href="#">cliquez ici</a>
+
+</body>
+</html>

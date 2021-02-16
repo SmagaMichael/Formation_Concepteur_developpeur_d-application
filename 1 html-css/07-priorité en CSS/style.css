@@ -1,0 +1,96 @@
+/* Selection par balise*/
+section {background-color:red !important;
+}
+
+
+/* Selection par id*/
+#container {background-color:rgb(229, 233, 22);
+}
+
+/* Selection par classe*/
+.container {background-color:rgb(38, 0, 255);
+}
+
+/* Selection par attribut*/
+P[title="salut"]
+{background-color:rgb(10, 155, 17);
+}
+
+
+/*  Selecteurs css avancés
+selectionne le p avec l'id paragraphe*/
+p#paragraphe {} 
+
+
+
+/* selectionne l'élément avec l'id paragraphe dans un P */
+p #paragraphe {} 
+
+
+/* meme chose avec une classe */
+p.paragraphe {} 
+p .paragraphe {} 
+
+
+/*  Selectionne un élément directement enfant 
+ d'un autre élément */
+ section > #paragraphe {}
+
+
+/* selectionne les P Directement précédés d'un P 
+avec in+*/
+#content p + p{}
+
+/* selectionne les P Directement précédés d'un P 
+avec un tild */
+#content p ~ p {}
+
+/*  Les pseudo classes*/
+/* Hover permet de mettre en blue le background
+quand on survole l'élément, ici P  */
+P:hover{
+    Background-color: blue}
+
+/* Au clic */
+P:active{   
+     font-size: 32px;}
+
+/* Au focus  */
+input:focus{
+    background-color: green;}
+
+
+/* Sert a changer la couleur du texte quand  on
+reste cliqué dessus */
+
+.button:active{
+    color: black !important;}
+
+.button, .button :visited{
+
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 1s;}
+
+.button:hover{
+    background-color: transparent;
+    color: blue;
+    border-color: blue;}
+
+
+    /* on selectionne les P qui sont les premiers 
+    enfants de n'importe quel élément*/
+P:first-child{
+    border: 3px solid purple;
+}
+
+/* On selectionne un enfant P qui est le deuxieme enfant */
+p:nth-child(2){
+    background-color: cornflowerblue;
+}
+
+p:last-child{}

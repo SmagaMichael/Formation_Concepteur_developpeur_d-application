@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.page{
+  
+    
+    width: 1000px;
+    border: 1px solid black;
+}
+
+
+
+.Rectangle{
+
+    height: 10px;
+    width: 150px;
+    border:1px solid black ;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button{
+    margin:10px;
+}

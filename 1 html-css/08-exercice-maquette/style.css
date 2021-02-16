@@ -1,0 +1,263 @@
+/* Utiliser une police "custom" */
+@font-face {
+    font-family: 'BallPark';
+    src: url(fonts/ballpark.eot) format('embedded-opentype'),
+         url(fonts/ballpark.woff) format('woff'),
+         url(fonts/ballpark.ttf) format('truetype'),
+         url(fonts/ballpark.svg) format('svg');}
+
+.page{
+    width: 1000px;
+    margin:auto;}
+
+body{
+    background-image: url(bg.png);
+    margin:0;
+    font-family: 'Nunito', sans-serif;}
+
+.logo, .menu{
+    float: left;
+    width: 500px;}
+
+.logo{
+    padding: 15px 0;
+    font-family: 'ballpark', sans-serif;
+    font-size: 26px;
+    font-weight: bold;}
+
+.menu{
+    text-align:right;}
+
+menu ul{
+    margin: 0;
+    padding: 0;}
+
+.menu ul li{display: inline;}
+
+.menu ul li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 20px 12px;}
+
+.menu ul li a:hover{
+ background-color: black;
+ color: white;}  
+
+.clear{
+    clear: both;}
+
+.line {
+    position:absolute;
+    border-top: 2px solid black;
+    width: 100%;
+    left: 0;
+    top: 85px;
+    z-index: -1;}
+
+
+                               /* photo de couverture*/
+
+
+.hero{background-image: url(new-york.jpg);
+    border-radius: 10px 10px 0px 10px;
+    height: 200px;
+    width: 1000px;
+    background-position: 0px 367px;}
+
+
+.calque{ border-radius: 10px 10px 0px 10px;
+         height: 200px;
+         width: 1000px;
+         background-color: rgba(0, 0, 0, 0.397);
+         box-shadow: 5px 5px 5px 0 gray;/*position sur X , sur Y, le flou , taille de l'ombre
+                                            et la couleur*/
+         }    
+
+.hero p{color: white;}
+
+.hero a{text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;}
+       
+.hero a:hover{
+      background-color: white;
+    color: black;}
+
+.intro{
+        position: relative;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;}
+
+
+
+
+
+
+                              /* article avec le grand texte */ 
+main{
+    border-bottom: 3px solid black;
+    height: auto;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+
+main article{
+    width: 672px;
+    float: left;
+    padding-right: 8px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+
+
+                                /* profil sur le coté */
+aside{
+    width: 260px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    background-color: #706b64;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    position:relative;
+    z-index: 3;
+    padding: 10px 20px;
+    color: white;
+}
+
+aside .arrow{
+position: absolute;
+top:100px;
+right:300px;
+}
+
+
+.arrow2{
+
+    border-top: 10px solid rgba(255, 0, 0, 0);
+    border-right: 15px solid red;
+    border-bottom: 10px solid rgba(255, 0, 0, 0);
+    border-left: 20px solid rgba(255, 0, 0, 0);
+    position: absolute;
+    top:120px;
+    right:300px;
+    filter: drop-shadow(-2px 2px 1px rgba(0, 0, 0, .5));
+
+    
+
+}
+
+
+
+
+aside h2{
+    text-transform: uppercase;
+    color: white;}
+
+.profil{
+    height: auto;
+    width: 100px;
+border: 1px solid black;}
+
+.texteprofil{
+    text-align: justify;
+    padding: 0px;
+}
+
+/* essaie lien image */
+
+.sprite{
+    background-image: url(sprite.png);
+    width: 50px;
+    height: 50px;
+    display: inline-block; /* fonction qui permet de mettre en ligne les éléments (inline) 
+                             et force à ne pas prendre la hauteur du contenue (block) */
+    background-size: 350px 100px;
+    margin:5px;
+    transition: 0.5s;
+}
+
+
+.sprite span{
+    display: none; /* on cache le texte du bouton met pour que les mal 
+                            voyant ai une option pour lire le texte*/ 
+}
+
+.sprit-facebook{background-position: 0px 0;}
+.sprit-twitter{background-position: -50px 0;}
+.sprit-youtube{background-position: -100px 0;}
+.sprit-instagram{background-position: -150px 0;}
+
+
+/* ou .sprite:hover {background-position-Y:40px}*/
+.sprit-facebook:hover{background-position: 0px 50px;}
+.sprit-twitter:hover{background-position: -50px 50px;}
+.sprit-youtube:hover{background-position: -100px 50px;}
+.sprit-instagram:hover{background-position: -150px 50px;}
+
+
+
+
+
+
+
+                                          /* BAS DE PAGE !!!!  */
+
+
+footer:before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+footer{
+    margin-top: 10px;
+    height: 300px;
+    position: relative; 
+/*la position relative est utilisé pour que la bordure avec before
+s'arrete au bon endroit  */ }
+
+
+.tweet{
+    width: 328px;
+    height: 200px;
+    float: left;}
+
+
+.photos{
+    width: 328px;
+    height: 200px;
+    float: left;}
+
+.friends{
+    width: 328px;
+    height: 200px;
+    float: left;}
+
+
+
+.list1, .list2{
+    float: left;
+    list-style-image: url(list-style.png);
+    margin:0;
+
+    }
+.list1{
+    padding-left: 15px;
+}
+
+
+footer li  a{
+    text-decoration: none;
+    color: red;
+}

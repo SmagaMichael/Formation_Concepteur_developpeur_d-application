@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO2</title>
+</head>
+<body>
+   
+
+    <p> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis sequi dolorem vel tempora similique at, eum modi quia dolor sapiente tempore laborum, quis rem magni doloremque beatae natus repellendus?</p>
+    <p> 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis sequi dolorem vel tempora similique at, eum modi quia dolor sapiente tempore laborum, quis rem magni doloremque beatae natus repellendus?</p>
+
+   
+    
+    <script>
+      
+   // Exercices
+    // 1. Changer la couleur de fond de body avec #d5b9b9 en JavaScript
+        document.body.style.backgroundColor = randomColor();
+
+    // 2. Augmenter la taille des paragraphes à 21px
+
+        var paragraphe = document.getElementsByTagName('p');
+        paragraphe[0].style.fontSize = '21px';
+        paragraphe[1].style.fontSize = '21px';
+
+                    // ou
+                        // var paragraphe = document.getElementsByTagName('p');
+                        // for (var i = 0; i < paragraphe.length; i++){
+                        //      paragraphe[i].style.fontSize = '21px'; 
+                        //   }
+
+
+
+
+            // créer et modifier un paragraphe en js  
+            var texte = document.createElement('p');
+                texte.id = 'texte';
+                texte.textContent= ' Paragraphe créé et modifié en JS';
+                texte.style.fontSize = '21px'
+                document.body.appendChild(texte);
+
+     
+    
+
+        //3. Créer une balise a, ajouter un lien via l'attribut href (en js) vers https://developer.mozilla.org/
+
+         var lien = document.createElement('a'); 
+
+         // a = créer une balise 'a'    , lien = juste un nom de variable
+            lien.href = 'https://developer.mozilla.org/';
+            lien.textContent ='Cliquer ici';
+            document.body.appendChild(lien); // Ajouter le lien dans le DOM sur la page
+
+        
+
+        //4. Changer la couleur du a en couleur #ffffff et non souligné (en js)
+       
+            lien.style.color = '#fff';
+            lien.style.textDecoration = 'none';
+
+
+        //BONUS: créer une fonction qui génére un code couleur aléatoire.
+                           
+        function randomColor() {
+            var letters ='0123456789abcdef';
+            var color = '#';
+
+        for (var i = 0; i < 6; i++){
+            color += letters[Math.floor(Math.random()*16)];
+        }
+
+            return color;
+        }
+
+        console.log(randomColor());
+
+
+
+      // OU
+      //  color += '#' + Math.floor(Math.random()*0xFFFFFF).toString(16);
+      //  return color
+
+
+        // ou en RGB
+/*
+        var colors = [];
+        for (var i = 0; i < 3; i++)
+            colors.push(Math.floor(Math.random()*255));{
+
+                var rgb = 'rgb(' +colors[0]+ ','  +colors[1]+ ',' +colors[2]+ ')';
+                console.log(rgb);
+                return color;
+*/
+
+
+    </script>
+
+    
+</body>
+</html>

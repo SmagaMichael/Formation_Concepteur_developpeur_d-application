@@ -1,0 +1,246 @@
+body{margin: auto;
+padding: auto;}
+
+.page{width: 900px;
+margin: auto;}
+
+.flex{display: flex;}
+
+                /* NAVBAR */
+.navbar a{
+    color: rgb(212, 212, 212);
+}
+.navbar button{
+    background-color: #80cafb;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);}
+
+
+
+                /* Couverture*/
+.fond-page{
+    background: linear-gradient(0.25turn, #5533FF, #25DDF5);}
+
+.container{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 15px;}
+
+.container > .intro{
+    width: 55%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    color: white;}
+
+
+.intro .title{
+    font-size: 1.95rem;}
+
+.cover img{
+    background-size: auto;
+    width: 45%;}
+
+.cover .button1{
+    background-color: #3ECF8E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    font-size: 14px;
+    padding: 5px 15px;}
+
+.cover .button2{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color:  #3ECF8E;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 15px;}
+
+
+
+
+        /* Partie service*/ 
+.service{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:5px;}
+
+.service-intro{
+    text-align: center;
+    padding: 15px;
+     width: 100%;
+     margin: 5px 150px;;}
+
+.service H2{width: 100%;
+}
+
+.service .different-service{
+    border: 1px solid black;
+    width: 45%;
+    height: auto;}
+
+
+                /* PRICE*/
+.price{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;}
+
+.price-intro{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 5px 150px;}
+
+.price1{
+    border: 2px solid rgba(128, 119, 119, 0.281);
+    margin:5px;
+    width: 30%;
+    text-align: center;
+    padding: 25px;}
+
+.price h2{
+        font-weight: 700;}
+
+.price h5{
+        font-weight: 700;}
+
+.price2{color: rgb(69, 228, 63);
+    font-size: 3rem;
+font-weight: 700;}
+
+.price .button1{
+    border: 1px solid rgb(69, 228, 63);
+    color: rgb(69, 228, 63);
+    padding: 5px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.price .button2{
+    background-color:rgb(69, 228, 63);
+    border: 1px solid rgb(69, 228, 63);
+    color: white;
+    padding: 5px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(119, 102, 102, 0.562);
+
+}
+
+
+
+                /* formulaire*/
+.contact{ 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.contact-intro{
+    width: 100%;
+    height: auto;
+    text-align: center;}
+
+.contact-intro p{
+    margin: 5px 150px;}
+
+.formulaire{    
+    padding: 15px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;}
+
+.bloc-formulaire{
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;}
+
+.formulaire1{
+    width: 50%;
+    height: 0;}
+
+.formulaire2{
+    width: 100%;
+    height: 0;}
+
+
+
+.bloc-formulaire .button-formulaire{
+    height: 30px;
+    width: 20%;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;}
+
+.contact .image-contact{
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;}
+
+.contact img{
+        background-size: auto;
+        width: 60%;}
+
+
+                            /* FOOTER */
+footer{
+    background-color: rgb(15, 15, 59);
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding:  10% 2%; }
+
+footer img{
+    width: 10%;
+    background-size: auto;
+    margin: auto;}
+
+footer .company{
+    width: 20%;}
+
+footer .product{
+    width: 20%;}
+
+footer .download{
+    width: 20%;}
+
+footer .subscribe{
+    width: 30%;}
+
+footer h6{
+    font-weight: 700;
+}
+.subscribe-button{
+    background-color: rgb(21, 196, 79);
+    color: white;
+    width: 45px;
+}
+
+                            /* CRAFT*/
+.craft{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(43, 206, 43);
+    background-color: rgb(15, 15, 59);
+    border-top:1px solid rgb(92, 8, 92) ;
+    padding:10px;
+}
+.craft span{
+    color: white;
+}

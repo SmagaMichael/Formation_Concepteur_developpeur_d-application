@@ -1,0 +1,211 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.merci{
+    display: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 3;
+    justify-content: center;    
+    top: 475px;
+    background-color: brown;
+    border: 3px solid cornsilk;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 15px;}
+
+
+button{
+    margin: 1px;
+    width: 24%;}
+
+img{
+    height: 50px;
+    width: 50px;}
+
+.magasine{
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-top: 220px ;
+    padding-bottom: 15px;
+    background-color: brown;
+    text-align: center;
+}
+
+.magasine > p{
+    background-color: cornsilk;
+    width: 100%;
+}
+
+
+.selection{
+  background-color: darkblue !important;
+}
+
+
+
+
+
+/* PANIER */
+
+.panier{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: brown;
+    padding-bottom: 15px;
+}
+
+.panier > p{
+    background-color: cornsilk;
+    width: 100%;
+}
+
+.titreArticle{
+    color: cornsilk;
+}
+
+.santa{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 400px;
+    top: 475px;
+}
+
+.jack{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 1180px;
+    top: 475px;
+}
+
+.sled{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 1580px;
+    top: 740px;
+}
+
+.magasine > button:hover{
+    background-color: rgb(51, 94, 22);
+    color: cornsilk;
+}
+
+
+
+.deleteArticle{
+
+}
+.allArticle{
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.merci {
+  
+    /* Font options */
+   font-family: 'Pacifico', cursive;
+   text-shadow: 2px 2px 4px #000000;
+   font-size:40px;
+   
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 5s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 5s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 5s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+   0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+ 
+ /* Internet Explorer */
+ @-ms-keyframes rainbow{
+    0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+ 
+ /* Standar Syntax */
+ @keyframes rainbow{
+     0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }

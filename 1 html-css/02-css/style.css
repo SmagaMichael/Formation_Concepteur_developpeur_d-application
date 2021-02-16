@@ -1,0 +1,34 @@
+/* Sélecteur en CSS
+Par balise <p>
+Par class (.classe>
+Par id (#id) (un id est unique)
+*/
+
+.bg-red {
+    background-color: #f80e0e;
+    text-align: left;
+    color: #dbdbec;
+}
+
+#p1 {color:#0ce755}
+
+
+
+.gray { color: #808080;
+
+}
+
+.uppercase {
+    text-transform:uppercase;
+    
+}
+/* valeur entre 100 et 900 à la place de bold pour gérer le poid*/
+#blue-bold {
+    font-weight:bold;
+    color: #292ccf;
+ }
+
+ /* l'espace indique que l'on veut l'élément dans .gray*/ 
+ .gray span:nth-child(3) {
+    color: #f80e0e;}
+

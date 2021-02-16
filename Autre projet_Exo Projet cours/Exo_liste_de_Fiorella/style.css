@@ -1,0 +1,229 @@
+body, html {height: 100%;}
+
+body{
+    background-image: url(img/fond4.jpg);
+    background-size: cover ;
+    display: flex;
+}
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 10px;
+    z-index: 5;}
+
+/* MAGASINE */
+
+.magasine > p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #338c44;
+  font-weight: 700;
+  width: 100%;
+}
+
+.magasine > button > p{
+  font-weight: 700;
+  width: 100%;
+  border:3px solid black;
+  background-color:  #338c44;
+}
+
+.magasine{
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-top: 30px  ;
+    padding-bottom: 15px;
+    background-color: brown;
+    text-align: center;
+}
+
+button{
+  margin: 1px;
+  width: 24%;}
+
+  .magasine > button:hover{
+    background-color: rgb(51, 94, 22);
+    color: cornsilk;
+}
+
+.magasine img{
+  height: 60px;
+  width: auto;
+  border: 3px solid black}
+
+
+
+
+/* PANIER */
+
+.panier{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: brown;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.AllChoice button{
+  display: none;
+}
+
+.panier > p{
+    background-color:  #338c44;
+    font-weight: 700;
+    width: 100%;
+}
+
+.titreArticle{
+    color:  #e3e9e4;
+    font-weight: 700;
+}
+
+.AllChoice{
+  flex-wrap: wrap;
+  width: 300px;
+  
+}
+
+.choice{
+  width: 100%;
+}
+
+.jack{
+    width: 300px;
+    height: auto;
+    left: 700px;
+    top: 100px;
+}
+
+.deleteArticle{
+  width: auto;
+  margin-right: 10px;
+}
+
+
+
+.Send{
+  width: 300px;
+}
+
+.SendJack{
+  width: 100%;
+}
+
+
+
+
+
+
+.sled{
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 1580px;
+  top: 740px;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.merci{
+  display: none;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 3;
+  justify-content: center;    
+  top: 0px;
+  background-color: brown;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 10px;
+  margin: 0;
+}
+
+
+.merci {
+    /* Font options */
+   font-family: 'Pacifico', cursive;
+   text-shadow: 2px 2px 4px #000000;
+   font-size:40px;
+   
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 5s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 5s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 5s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+   0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+ 
+ /* Internet Explorer */
+ @-ms-keyframes rainbow{
+    0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+ 
+ /* Standar Syntax */
+ @keyframes rainbow{
+     0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }

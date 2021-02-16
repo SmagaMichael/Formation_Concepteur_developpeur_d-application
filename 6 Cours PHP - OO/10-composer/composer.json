@@ -1,0 +1,12 @@
+{
+    "name": "mikie/10-mvc",
+    "authors": [
+        {
+            "name": "Smaga Michaele",
+            "email": "smaga.michael@bbox.fr"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.2"
+    }
+}

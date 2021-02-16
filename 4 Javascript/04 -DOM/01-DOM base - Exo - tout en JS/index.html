@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+</head>
+<body>
+    
+    <script>
+        // Comment récupérer la div en JS ?
+            var title = document.createElement('h1');
+            title.id = 'title';
+            title.textContent= 'Hey changement de titre !';
+
+            document.body.appendChild(title);
+
+            var div;
+            for (var i = 0; i < 3; i++){
+                div = document.createElement('div');
+                div.className ='container';
+                div.textContent = i;
+                document.body.appendChild(div);
+            }
+
+            var paragraphe = document.createElement('p');
+            paragraphe.textContent = 'un super paragraphe en JS';
+
+            document.getElementsByClassName('container')[0].appendChild(paragraphe);
+
+
+            
+
+
+
+
+    </script>
+</body>
+</html>

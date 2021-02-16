@@ -1,0 +1,7 @@
+[1013/085221.781:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mikie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\313b6f3c-c35e-41a7-aa78-c983aa3df9a4: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/085221.782:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mikie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3dd870ed-739f-4378-9c45-3d042dd60460: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/085221.782:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mikie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\57d1daf2-9e30-4fd3-9e24-4f86344531b9: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/085221.784:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mikie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\f0dd26b9-a677-4063-90d9-74a2e4c21e34: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/085221.785:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mikie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\f1ebf4ca-912b-4493-8fa0-2e3da81e4a6c: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/085221.785:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1013/091157.413:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)

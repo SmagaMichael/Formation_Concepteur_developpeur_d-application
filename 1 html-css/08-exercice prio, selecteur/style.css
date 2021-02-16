@@ -1,0 +1,49 @@
+
+
+/* Mettre le Paragraphe 3 en jaune.
+
+#content > P{color: yellow;}
+
+section ~ P {color: yellow;}
+~ = après la section ici
+
+*/
+div > p:nth-child(2){
+    color: rgb(235, 193, 8);}
+
+
+
+
+/* Mettre les paragraphes 2 et 4 en rouge.
+.container P + P{} le container ar du premier sans le compté et donc 
+on part du para2 jusqu'a ce que ça géne 
+
+*/
+div > section >P:nth-child(2){
+    color: rgb(252, 10, 10);}
+
+div > section >P:nth-child(3){
+        color: rgb(252, 10, 10);
+    }
+
+
+
+/* Mettre B et 2 en gras 
+ou
+ul li + li {}
+ul li:last-child{}                     */
+
+body > ul > li:nth-child(2){
+    font-weight: bold;
+}
+
+
+
+
+/* *Mettre le premier li d'un ul après un span en bleu*/
+span ~ ul li:first-child{
+    color: rgb(41, 114, 197);
+    font-weight: bold;
+    border: 3px solid blue;
+    border-width: 5px;
+}

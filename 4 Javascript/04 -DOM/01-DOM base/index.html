@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURS</title>
+</head>
+<body>
+    <div id="identifier" class="classe">Salut le HTML</div>
+
+    <script>
+        // Comment récupérer la div en JS ?
+        var divById = document.getElementById('identifier');
+
+        //Attention,.getElementsByClassName() renvoie un tableau
+        var divByClass =document.getElementsByClassName('classe')[0];
+
+        //On peut récupérer les infos de la div
+        console.log(divById.className); // Affiche classe A et B 
+        console.log(divByClass.id); // affiche "identifier"
+        console.log(divByClass.textContent); //Affiche "salut le html"
+
+        divByClass.textContent = 'Salut le JS'; // On peut changer le contenu de la div
+
+
+        // Créer un élément HTML et CSS
+        var p = document.createElement('p');
+        p.textContent = 'je suis un paragraphe en JS';
+
+
+        var p1 = document.createElement('p');
+        p1.textContent = 'je suis au début';
+
+
+        document.body.prepend(p1); // on ajoute p dans le DOM au début de body
+        document.body.appendChild(p); // on ajoute p dans le DOM 
+    </script>
+</body>
+</html>

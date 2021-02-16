@@ -1,0 +1,32 @@
+
+
+.chaton{
+    background-image: url(chaton.jpg);
+    height:300px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.calque{
+    background-color: rgb(0, 0, 0);
+    opacity:0.5;
+    position:absolute;
+    top:7px;
+    height:300px;
+    width: 630px;
+}
+
+
+.texte{
+    font-size: 40px;
+    color: rgb(255, 254, 254);
+    position:absolute;
+    top:210px;
+    text-align: center;
+    width:625px;
+    height:300px;
+
+    
+
+}
+

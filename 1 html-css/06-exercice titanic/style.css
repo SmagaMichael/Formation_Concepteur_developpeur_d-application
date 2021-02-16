@@ -1,0 +1,17 @@
+.body{margin:0px}
+
+
+.sea{
+    background-image: url(sea.png);
+    height:230px;
+    bottom:0;
+    position:absolute;
+    width:100%
+
+}
+
+.boat{
+    position:absolute;
+    top: -30px;
+    left: 300px;
+}

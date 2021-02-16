@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+</head>
+<body>
+    
+    <h1 id="title" class="classTitre">voici un titre</h1>
+
+    <div class="container">premier contenu</div>
+    <div class="container">deuxieme contenu</div>
+    <div class="container">troisieme contenu</div>
+
+
+
+
+
+
+
+    <script>
+   // Comment récupérer la div en JS ?
+   var titre = document.getElementById('title');
+
+    titre.textContent = 'Changement de titre en JS';
+
+        var p =document.createElement('p');
+        p.textContent ='je suis un paragraphe';
+
+
+
+        document.getElementsByClassName('container')[0].appendChild(p)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/10-mvc/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/10-mvc/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/10-mvc/vendor/composer" />
+      <path value="$PROJECT_DIR$/10-mvc/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

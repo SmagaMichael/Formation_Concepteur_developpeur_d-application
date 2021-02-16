@@ -1,0 +1,104 @@
+.page {
+    width: 1000px;
+    margin: auto;
+
+}
+body{background-color:#D3D3D3;
+    margin:0;
+
+
+}
+
+header{
+    background-color: #f6bc6a;
+    background-image: linear-gradient(to bottom,#fff, #ffa500);
+    
+    /* border:taille type couleur*/
+    border:3px solid #000;
+    text-align: center;
+    height: 94px; /* 94 car on choisit un header de 100px  ( 3 + 3 + 94 */
+    line-height: 94px
+}
+
+nav {
+     background-color: #8afcfd;
+    background-image: linear-gradient(to bottom,#fff, #8afcfd);
+    
+    /* border:taille type couleur*/
+    border:3px solid #000;
+    margin: 15px 0px 15px 0px
+}
+
+
+
+nav ul { 
+    list-style-type:none;
+    padding:0px;
+    margin: 10px 0; /* haut/bas   droite/gauche */
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+section {
+    border: 3px solid black;
+    margin: 15px 15px 15px 0px; /* haut droit bas gauche*/
+    padding:10px 15px;
+    width:664px;
+    float:left;
+    
+
+}
+
+
+section article {
+    background-color: #93b1df;
+    border:3px solid #000;
+    height: 150px;
+    
+}
+/*article est un enfant direct de la div*/
+div > article {
+    float: left;
+    margin: 10px 10px 0px 0px;
+    width:471px;
+
+}
+
+
+div > aside{
+    float: left;
+    width: 171px;
+    height:150px;
+    margin-top:10px;
+
+
+}
+
+
+aside {
+    background-color: #cea59e;
+    border: 3px solid black;
+    height: 342px;
+    width:239px;
+    float:left;
+    margin-top:15px;
+    margin-left:15
+
+
+}
+
+
+.clear{clear:both;}
+
+
+footer {
+    border:3px solid #000;
+    background-color: #d3d3b0;
+    padding:10px;
+    margin: 1Opx 0px 0px 0px;
+
+}

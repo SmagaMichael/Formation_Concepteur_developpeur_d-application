@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ma première page html sur Loba</title>
+        <meta charset="utf-8"/>
+    </head>
+
+    <body>
+        <div id="top"><</div>
+        <!--commentaire html , les titre vont jusque h6
+        
+        sélection de texte puis tab pour le bouger a droite 
+        shift + tab pour le bouger à gauche
+        alt + fleche pour le bouger de haut en bas 
+        
+        -->
+
+        <header>
+            <h1>Hello world, Ma première page html sur Loba</h1>
+            <h2>Histoire de Loba</h2>
+        </header>
+
+        <p>Voleuse d’élite
+            À l'âge de neuf ans, Loba a assisté au meurtre de sa famille par le simulacre Revenant, un tueur à gages sans merci. Livrée à elle-même, Loba a survécu en devenant pickpocket. En peaufinant méthodiquement ses compétences, Loba a employé tous les moyens à sa disposition pour s'élever dans la société. Tout a changé le jour où Loba est parvenue à s’introduire dans un complexe réputé impénétrable, s'emparant ainsi d'un disque de saut unique en son genre. Dotée d'un bracelet de téléportation, Loba pouvait désormais mettre la main sur les objets les plus rares et les mieux gardés. Elle allait enfin pouvoir mener la grande vie et rejoindre l’élite.
+            La rumeur s'est répandue dans toutes les Terres Sauvages : si vous vouliez quelque chose de précieux et d'inaccessible, Loba était la personne à contacter. Alors que Loba s'apprêtait à tourner la page sur son passé, l'arrivée de Revenant dans les Jeux Apex l'a projetée vers le futur. Déterminée à l'éliminer, elle a saboté un centre rempli d'unités Revenant, provoquant à cette même occasion l'effondrement de la Ville cimetière et du Dôme du Tonnerre. Elle a cependant découvert par la suite que ce n'était là qu'une usine parmi de nombreuses autres disséminées à travers la Frontière. Aujourd'hui, elle prend part aux Jeux Apex afin d'éliminer son ennemi juré une bonne fois pour toutes. Et le fait que les arènes de combat regorgent de trésors ne gâche rien à sa quête vengeresse... 
+            
+            Loba aura sa vengeance, si telle est sa fortune. En attendant, quelques objets brillants ont retenu son attention...</p>
+
+        <hr /> <!--séparateur avec bordure-->
+        <!-- shift + alt + fleche bas ou haut -->
+
+        <img src="loba-apex.jpg" alt= "Loba tenant la tête de revenant" />
+
+        <ul >
+
+            <li>Loba
+                <ul style="list-style-image: url(logoapex.png)">
+                    <li> <img src="bracelet.png"> bracelet de téléportation </li>   
+                    <li><img src="regard.png">regard aiguisé</li>
+                    <li><img src="marché.png">marché noir</li>
+                </ul>
+
+<!-- <ul style="list-style-image: url(logoapex.png)"-->
+            </li>
+            <li>revevant
+                <ul>
+                    <li> totem de résurection</li>
+                    <li> silence</li>
+                </ul>
+            </li>
+        </ul>
+
+<!--les balise <pre> </pre>  permettent de ne pas interpreter le code
+
+&lt;     /&gt;   remplace < >   
+
+
+&lt; p  /&gt;    Texte     &lt; p /&gt;
+
+
+si on veut mettre en forme du texte-->
+        <p> <strong>En gras,</strong> 
+        <em>    en italique,</em>
+        <s>un texte barré</s>
+        </p>
+
+<!--faire des liens relatif en html-->
+        <a href="contact.html">contact</a>
+
+
+<!-- lien absolu
+target ="_blank" sert à ouvrir un nouvel onglet-->
+        <a href="https://www.google.fr" 
+        title="Aller sur google"
+        target="_blank">google</a>
+
+
+
+<!--On peut faire un lien vers un ancre-->
+        <a href="#top">retour en haut de la page</a>
+
+    <table border="1px"  cellpadding="20px" cellspacing="5"> <!--tableau-->
+        <thead> <!--En-tête du tableau-->
+            <tr> <!--Une ligne du tableau-->
+                <th>Nom</th>  <!--Mettre en gras les parties du tableau-->
+                <th >Année de sortie </th>
+                <th>Acteurs</th>              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Spider-man:new génération</td> <!--ligne du tableau -->
+                <td align="center">2018</td>
+                <td>Shameik Moore, Haile Steinfeild</td>
+            </tr>
+            <tr>
+                <td>Spider-man:new génération</td> <!--ligne du tableau -->
+                <td align="center" colspan="2"> 2018 </td>
+            </tr>   
+            <caption>Mes films</caption>
+        </tbody>
+    </table>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+
+    </body>
+</html>
